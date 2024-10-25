@@ -34,7 +34,8 @@ public class SpringSecurityConfig {
     @Bean
     public WebSecurityCustomizer webSecurityCustomizer() {
         return web -> web.ignoring().requestMatchers(
-                new AntPathRequestMatcher("/resources/**"));
+                new AntPathRequestMatcher("/resources/**"),
+                new AntPathRequestMatcher("/api/v1/**"));
     }
 
     /**

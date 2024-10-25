@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-10-22T17:05:53+0900",
-    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.39.50.v20240912-1419_BETA_JAVA23, environment: Java 21.0.4 (Eclipse Adoptium)"
+    date = "2024-10-24T16:25:38+0900",
+    comments = "version: 1.5.5.Final, compiler: javac, environment: Java 17.0.12 (Eclipse Adoptium)"
 )
 @Component
 public class TodoMapperImpl implements TodoMapper {
